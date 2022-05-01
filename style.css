@@ -1,0 +1,1306 @@
+body{
+    margin: 0;
+    font-family: 'Ubunto', sans-serif;
+
+}
+.header{
+    width: 100%;
+}
+.header__info{
+    max-width: 100%;
+    display: grid;
+    grid-template-columns: 13.66% 36.78% 35.89% 13.66%;
+    grid-auto-rows: 40px;
+    background: linear-gradient(90deg, #F08B75 0%, #E94D94 51%, #9B4894 100%);
+    margin-bottom: 18px;
+}
+
+.header__info-text{
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 15px;
+    grid-column-start: 2;
+    color: #FFFFFF;
+}
+.header__communicate{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    grid-column-start: 3; 
+}
+.header__info-mail, .header__info-phone{
+    color: #FFFFFF;
+}
+.header__info-mail>img, .header__info-phone>img{
+    margin-right: 7px;
+}
+.header__info-mail{
+    margin-right: 45px;
+}
+.email-adress, .phone-number{
+    text-decoration: none;
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 60px;
+    color: #FFFFFF;
+}
+
+
+.header__menu{
+    
+    display: grid;
+    grid-template-columns: 13.14% 11.35% 44.32% 17.16% 13.66%;
+    background: #FFFFFF;
+    
+}
+
+.header__logo{
+    grid-column-start: 2;
+}
+nav{
+    justify-content: center;
+}
+.menu{
+    grid-column-start: 3;
+    display: flex;
+    align-items: center;
+    
+}
+.item__menu{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-decoration:none;
+    color: #4E3535;
+    margin-right: 65px;
+    
+}
+.item__menu:hover{
+    color: #CA3192;
+}
+
+.header__navigator{
+    grid-column-start: 4;
+    display: flex;
+    align-items: center;
+}
+
+.header__menu-button>a{
+    text-decoration: none;
+    display: flex;
+}
+.header__menu-button>a>img{
+    margin-left: 16px;
+}
+.header__search{
+    
+    padding: 12px;
+    border-left: 1px solid #CA3192;
+    margin-right: 70px; 
+}
+.header__heart{
+    margin-right: 29px;
+}
+.header__basket>img{
+    margin-right: 58px;
+}
+.header__slider-item{
+    display: grid;
+    grid-template-columns: 13.66% auto;
+    grid-template-rows: 760px;
+}
+.header__slider-item>img{
+    width: 100%;
+    grid-column: 1/3;
+    grid-row-start: 1;
+    
+}
+.header__slider{
+    margin-top: 18px;
+}
+
+
+.header__slider-description{
+    margin-top: 99px;
+    width: 575px;
+    height: 562px;
+    background: rgba(255, 255, 255, 0.6);
+    backdrop-filter: blur(15px);
+    /* Note: backdrop-filter has minimal browser support */
+    grid-column-start: 2;
+    grid-row-start: 1;
+    border-radius: 40px 0px;
+}
+.header__slider-description>h1, .header__slider-description>p{
+    margin-left: 49px;
+}
+.header__slider-description>h1{
+    margin-bottom: 54px;
+}
+.header__slider .owl-nav .owl-prev{
+    float: left;
+    position: relative;
+    width: 30px;
+    height: 50px;
+    background-color: #202020;
+    font-weight: bold;
+    line-height: 1;
+    font-size: 38px;
+    transition: all 0.2s;
+    left: 202px !important;
+}
+.header__slider .owl-nav .owl-next{
+    float: left;
+    position: relative;
+    width: 30px;
+    height: 50px;
+    background-color: #202020;
+    font-weight: bold;
+    line-height: 1;
+    font-size: 38px;
+    transition: all 0.2s;
+    right:-830px !important;
+}
+.wallpaper__image{
+    display: grid;
+    grid-template-columns: 13.54% 18.23% 18.23% 18.23% 18.23% 13.54%;
+    margin-top: 73px;
+    margin-bottom: 135px;
+}
+.arrow-small{
+    margin-left: 20px;
+}
+.wallpaper__prices{
+    width: 338px;
+    height: 495px;
+    background-color: #F6F6F6;;
+    margin-bottom: 41px;
+}
+.wallpaper__pay, .wallpaper__production, .wallpaper__delivery{
+    margin-left: 27px;
+    display: flex;
+    align-items: center
+}
+.title__prices{
+    margin-top: 42px;
+    margin-left: 27px;
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 25px;
+
+    color: #843C6A;
+}
+.prices__text{
+    margin-left: 24.6px;
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    /* or 133% */
+
+    display: flex;
+    align-items: center;
+
+    color: #4E3535;
+}
+.wallpaper__pickup>p{
+    padding-left: 3px;
+}
+.wallpaper__pickup{
+    margin-bottom: 43px;
+}
+
+.wallpappaerDeliveryInfo__cost{
+    height: 80px;
+    width: 338px;
+    background: linear-gradient(90deg, #CA3192 0.29%, #FF98A6 100%);
+    border-bottom-right-radius: 20px;
+}
+.wallpappaerDeliveryInfo__cost-flex{
+    padding-left: 27px;
+    font-family: 'Ubuntu', sans-serif;
+    display: flex;
+    color: #FFFFFF;
+    
+    
+}
+.cost-flex1{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+    margin: 0px;
+    padding-top: 20px;
+    padding-right: 5px;
+}
+.cost-flex2{
+    font-size: 42px;
+    font-weight: 300;
+    line-height: 24px;
+    margin: 0px;
+    padding-top: 29px;
+    padding-right: 10px;
+    }
+.cost-flex3{
+    
+    font-size: 22px;
+    font-weight: 300;
+    line-height: 24px;
+    margin: 0px;
+    padding-top: 34px;
+}
+
+.wallpaper__title{
+    margin-left: 260px;
+    margin-top: 85px;
+    margin-bottom: -30px;
+}
+
+.wallpaper__conteiner1{
+    grid-column-start: 2;
+    display: grid;
+    justify-content: start;
+
+}
+
+.wallpaper__conteiner2{
+    grid-column-start: 3;
+    margin-right: 4px;
+    display: grid;
+    justify-content: space-around;
+}
+
+.wallpaper__conteiner3{
+    grid-column-start: 4;
+    margin-left: 4px;
+    display: grid;
+    justify-content: space-around;
+}
+
+.wallpaper__conteiner4{
+    grid-column-start: 5;
+    display: grid;
+    justify-content: end;
+}
+.wallpaper__image-link{
+    display: flex;
+    
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    text-decoration: none;
+
+    color: #4E3535;
+    margin-top: 10px;
+    margin-bottom: 19px;
+}
+ .instagram{
+     display: grid;
+     grid-template-columns: 13.66% 9.62% 39.94% auto 13.66%;
+     grid-template-rows: 183px;
+
+ }
+.instagram__image{
+    grid-column-start: 2;
+    
+}
+.instagram__decription{
+    padding-right: 133px;
+}
+.instagram__title{
+    margin-left:47px;
+    width: 692px;
+    height: 60px;
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 46px;
+    line-height: 60px;
+    color: #843C6A;
+    margin-top: 0;
+    /* identical to box height, or 130% */
+}
+.instagram__text{
+    width: 574px;
+    height: 85px;
+    margin-left:52px;
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 28px;
+    /* or 156% */
+
+    color: #4E3535;
+}
+
+.instagram__button>button{
+    width: 457px;
+    height: 80px;
+    background: linear-gradient(90deg, #9B4894 0%, #E94D94 51%, #F08B75 100%);
+    border-radius: 10px;
+    backdrop-filter: blur(15px);
+    border: none;
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 25px;
+    
+    align-items: center;
+    text-align: center;
+    
+
+    color: #FFFFFF;
+}
+.instagram__button{
+    display: grid;
+    align-items: end;
+}
+
+.new-wallpaper{
+    margin-top: 144px;
+    display: grid;
+    grid-template-columns: 13.54% 72.92% 13.54%;
+    grid-template-rows: 60px 511px;
+}
+.new-wallpaper__title{
+
+    grid-column-start: 2;
+    grid-row: 1/2;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 70px;
+    
+
+    
+}
+.new-wallpaper__title>a{
+    display: flex;
+    align-items: center;
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: right;
+    margin-top: 38px;
+    color: #CA3192;
+    text-decoration: none;
+}
+.new-wallpaper__title>h1{
+    
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 46px;
+    line-height: 60px;
+    /* identical to box height, or 130% */
+    
+    
+    color: #843C6A;
+}
+.new-wallpaper__slider{
+    grid-column-start: 2;
+    grid-row: 2/3;
+    display: flex;
+}
+.item__slider:nth-child(2), .item__slider:nth-child(3){
+    margin-left: 15px;
+}
+.item__slider:nth-child(4){
+    margin-left: 16px;
+}
+.item__slider>a{
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+
+    color: #4E3535;
+}
+.tile{
+    display: grid;
+    grid-template-columns:13.54% 36.46% 36.46% 13.54%;
+    margin-top: 166px;
+    
+}
+.tile__secription{
+    grid-column-start: 2;
+    margin-right: 70px;
+}
+.tile__title{
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 46px;
+    line-height: 60px;
+    /* or 130% */
+
+    color: #843C6A;
+}
+
+.tile__text{
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 27px;
+    /* or 150% */
+
+    color: #4E3535;
+}
+.tile__image{
+    margin-left: 9px;
+}
+.grid-tile{
+    display: grid;
+    grid-template-columns: 13.54% 18.23% 18.23% 18.23% 18.23% 13.54%;
+    margin-top: 73px;
+    margin-bottom: 137px;
+}
+.margin-top58{
+    margin-top: 58px;
+}
+.prices__text-delivery{
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    /* or 150% */
+    display: flex;
+    align-items: center;
+}
+
+.grid-tile__conteiner1{
+    grid-column-start: 2;
+    display: grid;
+    justify-content: start;
+
+}
+.grid-tile__conteiner2{
+    margin-right: 4px;
+    grid-column-start: 3;
+    display: grid;
+    justify-content: space-around;
+    
+    
+}
+.grid-tile__conteiner3{
+    margin-left: 4px;
+    grid-column-start: 4;
+    display: grid;
+    justify-content: space-around;
+    
+}
+.grid-tile__conteiner4{
+    grid-column-start: 5;
+    display: grid;
+    justify-content: end;
+}
+
+
+.paints{
+    display: grid;
+    grid-template-columns: 13.54% 36.46% 36.46% 13.54%;
+    grid-template-rows: max-content;
+    margin-bottom: 76px;
+}
+.paints__image{
+    grid-column-start: 2;
+}
+.paints__description{
+    grid-column-start: 3;
+    
+}
+
+.paints__title{
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 46px;
+    line-height: 60px;
+    /* or 130% */
+    margin-left: 66px;
+
+    color: #843C6A;
+}
+
+.paints__text{
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 27px;
+    /* or 150% */
+    margin-left: 66px;
+
+    color: #4E3535;
+}
+.paints__color{
+    display: grid;
+    grid-template-columns: 13.66%  auto 13.66%;
+}
+.paints__conteiner{
+    grid-column-start: 2;
+    display: flex;
+    
+}
+.paints__conteiner>button{
+    width: 221px;
+    height: 64px;
+    margin-right: 13px;
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18px;
+    align-items: center;
+    text-align: center;
+    
+    color: #4E3535;
+
+    background: #FFFFFF;
+    border: 1px solid #DEDEDE;
+    box-sizing: border-box;
+    border-radius: 10px;
+
+}
+.paints__conteiner>button:hover{
+    background: rgba(202, 49, 146, 1);
+    color: rgba(255, 255, 255, 1);
+}
+.paints__button-link>a{
+    text-decoration: none;
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    
+
+    color: #CA3192;
+
+    
+    display: flex;
+    align-items: center;
+
+}
+.paints__conteiner>button:nth-child(5){
+    margin-right: 11px;
+}
+.paints__button-link{
+    width: 221px;
+    
+    display: contents;
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    
+
+    color: #CA3192;
+}
+
+.color-slider{
+    margin-top:61px;
+    display: grid;
+    grid-template-columns: 13.54% 72.92% 13.54%;
+    grid-template-rows: 221px;
+    margin-bottom: 146px;
+}
+.colors-slider{
+    grid-column-start: 2;
+}
+.colors-slider__item1{
+    width: 221px;
+    height: 221px;
+    background: #A9998A;
+    border-radius: 20px;
+    
+}
+.colors-slider__item2{
+    width: 221px;
+    height: 221px;
+    background: #8FB0A9;
+    border-radius: 20px;
+    margin-right: 10px;
+}
+.colors-slider__item3{
+    width: 221px;
+    height: 221px;
+    background: #839099;
+    border-radius: 20px;
+}
+.colors-slider__item4{
+    width: 221px;
+    height: 221px;
+    background: #A29DA1;
+    border-radius: 20px;
+}
+.colors-slider__item5{
+    width: 221px;
+    height: 221px;
+    background: #727C7D;
+    border-radius: 20px;
+}
+.colors-slider__item6{
+    width: 221px;
+    height: 221px;
+    background: #CDDAD1;
+    border-radius: 20px;
+}
+.colors-slider__item7{
+    width: 221px;
+    height: 221px;
+    background: #cecbcb;
+    border-radius: 20px;
+}
+.colors-slider__image{
+    width:30px;
+    height:24.89px;
+    padding-top: 14px;
+    padding-left: 15px;
+}
+.colors-slider__text{
+    
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    
+    align-items: center;
+    text-align: center;
+    margin-top: 125px;
+
+    color: #FFFFFF;
+}
+.wallpaper-dream{
+    
+    display: grid;
+    grid-template-columns: 13.54% 30.73% 42.19% 13.54%;
+    grid-template-rows: 1;
+    background: #F6F6F6;
+    width: 1903px;
+    height: 658px;
+}
+.wallpaper-dream__description{
+    
+    grid-column-start: 2;
+    margin-right: 133px;
+}
+.wallpaper-dream__video{
+    margin-top: 117px;
+    grid-column-start: 3;
+    
+}
+.wallpaper-dream__video>video{
+    width: 810px;
+    height: 456px;
+    border-radius: 0px 40px;
+}
+.button_play{
+    grid-column-start: 3;
+    position: absolute;
+    align-items: center;
+    position: relative;
+    left: 380px;
+    bottom: 280px;
+    background: none;
+    border: none;
+
+}
+.wallpaper-dream__title{
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 46px;
+    line-height: 60px;
+    /* or 130% */
+    width: 457px;
+    height: 120px;
+    margin-top: 117px;
+    margin-bottom: 34px;
+
+    color: #843C6A;
+}
+.wallpaper-dream__text{
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 27px;
+    /* or 150% */
+    width: 457px;
+    height: 288px;
+
+
+    color: #4E3535;
+}
+.about-us{
+    display: grid;
+    grid-template-columns: 13.54% 48.33% 24.58% 13.54%;
+    grid-template-rows: 60px 235px 226px 227px;
+    margin-top: 167px;
+    
+}
+.about-us__title{
+    grid-column-start: 2;
+    grid-row-start: 1;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 46px;
+    line-height: 60px;
+    /* identical to box height, or 130% */
+
+
+    color: #562952;
+}
+.about-us__big-image{
+    grid-column-start: 2;
+    grid-row-start: 2;
+    margin-top: 77px;
+}
+.about-us__report{
+    grid-column-start: 3;
+    grid-row-start: 2;
+    display: grid;
+
+    grid-template-columns: 235px 457px;
+    justify-content: end;
+
+    background: #FFFFFF;
+    width: 692px;
+    height: 235px;
+    margin-top: 77px;
+    margin-left: -220px;
+    border-radius: 0px 0px 0px 40px;
+}
+.about-us__images{
+    margin-top: 77px;
+    grid-column-start: 3;
+    grid-row-start: 3;
+    display: grid;
+    grid-template-columns: 221px 221px;
+    grid-template-rows: 221px 221px;
+    gap: 15px;
+    margin-left: 15px;
+}
+.about-us__report-face{
+    margin-left: 47px;
+}
+.about-us__report-comment{
+    margin-left: 15px;
+    
+}
+.about-us__comment-instalink>a{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    text-decoration-line: underline;
+
+    color: #562952;
+    }
+.about-us__comment-instalink{
+    display: flex;
+    align-items: center;
+}
+.about-us__report-comment>p{
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 27px;
+    /* or 169% */
+
+
+    color: #4E3535;
+}
+.special{
+    margin-top: 242px;
+    display: grid;
+    grid-template-columns: 13.54% 36.46% 36.46% 13.54%;
+}
+.speacial__description{
+    grid-column-start: 2;
+}
+.special__image{
+    grid-column-start: 3;
+}
+.speacial__description>h1{
+    margin-right: 117px;
+}
+.speacial__description>p{
+    margin-right: 61px
+}
+.title{
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 46px;
+    line-height: 60px;
+    /* or 130% */
+    color: #843C6A;
+}
+.text{
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 27px;
+    /* or 150% */
+
+
+    color: #4E3535;
+}
+.wallpaper-bedroom{
+    
+    margin-top: 118px;
+    display: grid;
+    grid-template-columns: 50.45% 49.55%;
+    grid-template-rows: 900px;
+    background: #F6F6F6;
+}
+.wallpaper-bedroom__image{
+    grid-column-start: 1;
+    margin-bottom: 32px;
+}
+.wallpaper-bedroom__description{
+    grid-column-start: 2;
+    
+}
+.wallpaper-bedroom__description>h1{
+    margin-left: 61px;
+    margin-right: 363px;
+}
+.wallpaper-bedroom__description>p{
+    margin-left: 61px;
+    margin-right: 260px;
+}
+.link{
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: right;
+
+    color: #CA3192;
+}
+.wallpaper-living_room{
+    display: grid;
+    grid-template-columns: 50.45% 49.55%;
+    grid-template-rows: 884px;
+
+}
+.wallpaper-living_room__description{
+    margin-left: 260px;
+    display: grid;
+    align-content: center;
+    
+}
+.wallpaper-living_room__description>p{
+    margin-right: 61px;
+}
+.wallpaper-living_room__description>h1{
+    margin-right: 186px;
+}
+.wallpaper-living_room__image{
+    grid-column-start: 2;
+}
+.wallpaper-living_room__image>img{
+    width: 943px;
+}
+.wallpaper-kitchen{
+    display: grid;
+    grid-template-columns:50.45% 49.55%;
+    grid-template-rows: 900px;
+    background: #F6F6F6;
+}
+.wallaper-kitchen__description{
+    grid-column-start: 2;
+    margin-left: 61px;
+    display: grid;
+    align-content: center;
+}
+.wallaper-kitchen__description>h1{
+    margin-right: 363px;
+}
+.wallaper-kitchen__description>p{
+    margin-right: 260px;
+}
+.wallpaper-childrens_room{
+    display: grid;
+    grid-template-columns: 50.45% 49.55%;
+    grid-template-rows: 884px;
+}
+.wallpaper-childrens_room__description{
+    margin-left: 260px;
+    display: grid;
+    align-content: center;
+}
+.wallpaper-childrens_room__description>h1{
+    margin-right: 186px;
+}
+.wallpaper-childrens_room__description>p{
+    margin-right: 61px;
+}
+.wallpaper-childrens_room__image{
+    grid-column-start: 2;
+}
+.wallpaper-childrens_room__image>img{
+    width: 943px;
+}
+.wallpaper-bathroom{
+    
+    display: grid;
+    grid-template-columns: 50.45% 49.55%;
+    grid-template-rows: 900px;
+    background: #F6F6F6;;
+}
+.wallpaper-bathroom__description{
+    grid-column-start: 2;
+    margin-left: 61px;
+    display: grid;
+    align-content: center;
+    
+}
+.wallpaper-bathroom__description>h1{
+    margin-right: 375px;
+}
+.wallpaper-bathroom__description>p{
+    margin-right: 272px;
+}
+.question{
+    margin-top: 163px;
+}
+.question__title{
+    margin-bottom: 71px;
+    margin-left: 260px;
+    margin-right: 850px;
+}
+.title-mini{
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    margin-left: 16px;
+
+    color: #4E3535;
+}
+.question__big-conteiner{
+    display: grid;
+    grid-template-columns: 13.54% 23.61% 23.61% 23.61% 15.63%;
+ 
+}
+.question__conteiner1{
+    grid-column-start: 2;
+    width: 416px;
+    margin-right: 56px;
+    
+}
+.question__conteiner2{
+    grid-column-start: 3;
+    width: 416px;
+    margin-right: 56px;
+}
+.question__conteiner3{
+    grid-column-start: 4;
+    width: 416px;
+    margin-right: 56px;
+    
+}
+
+.question__mini-title{
+    display: flex;
+    align-items: flex-end;
+}
+.question__conteiner1>p{
+    padding-bottom: 45px;
+    
+}
+.question__conteiner2>p{
+    padding-bottom: 45px;
+}
+.question__conteiner3>p{
+    padding-bottom: 45px;
+}
+
+.iskl{
+    margin-top: 23px;
+}
+
+.footer{
+    display: grid;
+    grid-template-columns: 13.54% repeat(5, 1fr) 11.51% 13.54%;
+    grid-auto-rows: max-content;
+    
+}
+.footer__conteiner1{
+    grid-column-start: 2;
+    width: 110px;
+    height: 408px;
+}
+.footer__conteiner2{
+    grid-column-start: 3;
+}
+
+.footer__conteiner3{
+    grid-column-start: 4;
+}
+
+.footer__conteiner4{
+    grid-column-start: 5;
+}
+
+.footer__conteiner5{
+    grid-column-start: 6;
+}
+.footer__title{
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height, or 150% */
+
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+
+    color: #CA3192;
+    margin-bottom: 16px;
+    margin-top: 26px;
+}
+.footer__link{
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 34px;
+    /* or 243% */
+    text-decoration: none;
+
+    color: #4E3535;
+}
+
+.footer__conteiner1>ul, .footer__conteiner2>ul, .footer__conteiner3>ul,
+.footer__conteiner4>ul, .footer__conteiner5>ul, .footer__conteiner6>ul{
+    list-style: none;
+    padding-inline-start:0;
+}
+.footer__conteiner1, .footer__conteiner2, .footer__conteiner3{
+    width: 221px;
+    height: 408px;
+    margin-right: 15px;
+}
+.footer__conteiner4{
+    width: 180px;
+    height: 465px;
+    margin-right: 56px;
+}
+.footer__conteiner5{
+    width: 177px;
+    height: 325px;
+    margin-right: 58px;
+}
+.footer__conteiner6{
+    width: 221px;
+    height: 313px;
+}
+.footer__link:hover{
+    color: #CA3192;
+}
+.footer__contact{
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 60px;
+    /* or 375% */
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    height: 16px;
+    margin-left: 16px;
+    color: #CA3192;
+    margin-bottom: 16px;
+}
+.li-contacts{
+    display: flex;
+    align-items: flex-start;
+    
+}
+.li-border{
+    margin-top: 28px;
+    border-bottom: 1px solid #CA3192;
+    margin-bottom: 25px;
+}
+.link1{
+    margin-top:13px
+}
+.social{
+    display: grid;
+    position: relative;
+    grid-template-columns: repeat(5, 1fr);
+    column-gap: 10px;
+}
+.footer-bottom{
+    margin-top: 81px;
+    width: 100%;
+    height: 60px;
+    background: linear-gradient(90deg, #F08B75 0%, #E94D94 51%, #9B4894 100%);
+}
+
+.footer-bottom__arrow{
+    padding: 20px;
+    display: flex;
+    width: 100%;
+   justify-content: center;
+   background: linear-gradient(90deg, #F08B75 0%, #E94D94 51%, #9B4894 100%);
+   border: none;
+}
+.ax{
+    position: relative;
+    left: 7px;
+    bottom: 31px;
+}
+
+
+.header__slider .owl-dot span{
+    background-color: #E4E6E3;
+    border: none;
+    width: 15px;
+    height: 15px;
+    display: block;
+    border-radius: 50%;
+}
+.header__slider .owl-dot{
+    position: relative;
+    margin: 5px;
+    top: -175px;
+    right: -310px;
+}
+.header__slider .owl-dot.active span{
+    background-color: #CA3192;
+}
+    
+
+.owl-carousel .owl-nav{
+    position: absolute;
+    width: 100%;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    z-index: 999;
+}
+    .owl-carousel .owl-nav .owl-prev{
+    float: left;
+    position: relative;
+    width: 30px;
+    height: 50px;
+    background-color: #202020;
+    font-weight: bold;
+    line-height: 1;
+    font-size: 38px;
+    transition: all 0.2s;
+    left: -43px;
+}
+    .owl-carousel .owl-nav .owl-next{
+    float: left;
+    position: relative;
+    width: 30px;
+    height: 50px;
+    background-color: #202020;
+    font-weight: bold;
+    line-height: 1;
+    font-size: 38px;
+    transition: all 0.2s;
+    right: -1368px;
+}
+@media(max-width: 1800px){
+    
+    .header__menu{
+        grid-template-columns: 13.14% auto auto auto 13.66%;
+    }
+    .header__info{
+        grid-template-columns: 13.66% auto auto 13.66%;
+    }
+    .wallpaper__image{
+        grid-template-columns: 13.54% auto auto auto auto 13.54%;
+    }
+    .instagram{
+        grid-template-columns: 13.66% auto auto auto 13.66%;
+    }
+    .new-wallpaper{
+        grid-template-columns: 13.54% auto 13.54%;
+        
+    }
+    .tile{
+        grid-template-columns: 13.54% auto auto  13.54%
+    }
+    .grid-tile{
+        grid-template-columns: 13.54% auto auto auto auto 13.54%;
+    }
+    .paints{
+        grid-template-columns: 13.54% auto auto 13.54%;
+    }
+    .color-slider{
+        grid-template-columns: 13.54% auto 13.54%;
+    }
+    .wallpaper-dream{
+        grid-template-columns: 13.54% auto auto 13.54%;
+    }
+    .about-us{
+        grid-template-columns: 13.54% auto auto 13.54%;
+    }
+    .special{
+        grid-template-columns: 13.54% auto auto 13.54%;
+    }
+    .wallpaper-bedroom{
+        grid-template-columns: auto auto;
+    }
+    .wallpaper-living_room{
+        grid-template-columns: auto auto;
+    }
+    .wallpaper-kitchen{
+        grid-template-columns: auto auto;
+    }
+    .wallpaper-childrens_room{
+        grid-template-columns: auto auto;
+    }
+    .wallpaper-bathroom{
+        grid-template-columns: auto auto;
+    }
+    .question__big-conteiner{
+        grid-template-columns: 13.54% auto auto auto 15.63%;
+    }
+}
+@media(min-width: 421px){
+    .header__info-text_mobile{
+    display:none;
+    }
+}
